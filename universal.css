@@ -1,0 +1,123 @@
+
+table{
+position:relative;
+left:20%;
+
+}
+
+.navbar-custom {
+    background: blue;
+}
+
+
+.avtar{
+position: relative;
+top:5px; 
+right:10px; 
+border-radius:20%;
+height:30px;
+width:50px;
+cursor:pointer;
+}
+
+.input-custom{
+position: relative; 
+left:70%; 
+width:300%;
+}
+
+    .bs-example{
+    	margin: 20px;
+    }
+
+.float-add{
+	position:fixed;
+	width:15%;
+	height:50px;
+	bottom:40px;
+	left:40px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.float-del{
+	position:fixed;
+	width:15%;
+	height:50px;
+	bottom:40px;
+	right:40px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.check{
+position: absolute;
+left:100%;
+
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.checkbox-round {
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: rgb(50,0,0);
+}

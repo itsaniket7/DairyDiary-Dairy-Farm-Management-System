@@ -1,0 +1,12 @@
+bill name , bill date, total payment , advance , total feed, in hand payment,price/L,
+
+Bill name, bill date, price/l, advance, feed ,total pay ,  last pay.
+
+
+bill_name varchar(50) not null primary key,
+bill_date timestamp not null default current_timestamp on update current_timestamp,
+price int(3) not null,
+advance int(10) not null,
+feed_pay int(10) not null,
+total_pay int(10) not null,
+last_pay int(10) not null
